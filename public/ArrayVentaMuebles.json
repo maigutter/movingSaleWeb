@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Lavarropas",
-      "picture": "./src/assets/lavarropas.jpg",
+      "picture": "/assets/lavarropas.JPG",
       "name": "Lavarropas Drean Next 6.06 eco 6kg 600rpg",
       "description": "Comprado hace 2 años (2022), estado: como nuevo. Usado por una sola persona viviendo sola (uso leve). Carga frontal.",
       "measurements": "60cm ancho x 50cm profundidad x 85cm alto",
@@ -21,7 +21,7 @@
     {
       "id": 2,
       "title": "Heladera",
-      "picture": "./src/assets/heladera.jpg",
+      "picture": "/assets/heladera.JPG",
       "name": "Heladera Electrolux DF30X no frost",
       "description": "Heladera Electrolux DF30X No frost usada 3 años, perfecto estado con todos los accesorios. Capacidad heladera 191L, capacidad freezer 73L, capacidad total 264L.",
       "measurements": "60cm ancho x 60cm profundidad x 155cm alto",
@@ -39,7 +39,7 @@
     {
       "id": 3,
       "title": "Mueble cajonera",
-      "picture": "./src/assets/cajonera.jpg",
+      "picture": "/assets/cajonera.JPG",
       "name": "Mueble cajonera de madera paraíso maciza.",
       "description": "Cajonera de 12 cajones (9 cajones de 55cm de ancho x 20cm alto + 3 cajones de 55cm ancho x 35cm alto). Perfecto estado, hecho a medida a fines de 2021 en madera paraíso maciza. La mesada mide lo mismo que el ancho total del mueble pero está corrida. El mueble no está empotrado sino que está hecho para encajar a medida en el espacio en el que está. En caso de querer la mesada como tapa de mueble y no como extensión de barra, puede sacarse y recolocarse para que encaje con los cajones, miden exactamente lo mismo.",
       "measurements": "115cm alto x 185cm largo x 45cm profundidad",
@@ -57,7 +57,7 @@
     {
       "id": 4,
       "title": "Escritorio",
-      "picture": "./src/assets/escritorio.jpg",
+      "picture": "/assets/escritorio.JPG",
       "name": "Escritorio de madera paraíso macisa con ruedas.",
       "description": "Escritorio de madera paraíso maciza hecho a medida con ruedas y varios detalles: 4 cajones del lado izquierdo, 3 estantes del lado derecho (el estante del medio es removible para que entre una CPU en caso de necesitarse), bandeja deslizable para teclado y mouse y compartimento escondecables doble.",
       "measurements": "147cm largo x 55 profundidad x 87cm alto",
@@ -75,7 +75,7 @@
     {
       "id": 5,
       "title": "Espejo",
-      "picture": "./src/assets/espejo.jpg",
+      "picture": "/assets/espejo.JPG",
       "name": "Espejo de Diseño - curvo / irregular",
       "description": "Espejo de diseño curvo irregular",
       "measurements": "150 alto x 45 en el punto más ancho",
@@ -93,7 +93,7 @@
     {
       "id": 6,
       "title": "Perchas",
-      "picture": "./src/assets/perchas.jpg",
+      "picture": "/assets/perchas.jpg",
       "name": "44 perchas de madera en juego + 10 perchas de madera de regalo",
       "description": "44 perchas a juego + 10 perchas extra de regalo. Precio con el perchero USD 55 las dos cosas.",
       "measurements": "",
@@ -111,7 +111,7 @@
     {
       "id": 7,
       "title": "Perchero hierro y madera",
-      "picture": "./src/assets/perchero.jpg",
+      "picture": "/assets/perchero.JPG",
       "name": "Perchero de hierro con base de madera estilo industrial",
       "description": "Perchero de hierro con base de madera estilo industrial. Precio con las perchas USD55 las dos cosas.",
       "measurements": "Base de madera 140cm largo x 30cm ancho - 155cm alto total",
@@ -129,7 +129,7 @@
     {
       "id": 8,
       "title": "Perchero madera recibidor",
-      "picture": "./src/assets/percheroEscalera.jpg",
+      "picture": "/assets/percheroEscalera.JPG",
       "name": "Perchero de pie de madera tipo recibidor estilo nórdico-escandinavo",
       "description": "Perchero de madera tipo escalera para recibidor",
       "measurements": "180cm alto x 40cm ancho",
@@ -147,7 +147,7 @@
     {
       "id": 9,
       "title": "Zapatero recibidor",
-      "picture": "./src/assets/zapatero.jpg",
+      "picture": "/assets/zapatero.JPG",
       "name": "Zapatero de madera paraíso",
       "description": "Zapatero de diseño en madera paraíso",
       "measurements": "Medidas exactas pendientes, aprox 1m de largo x 20cm de ancho.",
@@ -165,7 +165,7 @@
     {
       "id": 10,
       "title": "Banquito-escalera madera",
-      "picture": "./src/assets/bancoEscalera.jpg",
+      "picture": "/assets/bancoEscalera.JPG",
       "name": "Banco-escalera de pino barnizado a mano.",
       "description": "Banco-escalera de pino barnizado a mano. 3 escalones. Perfecto estado.",
       "measurements": "Altura máxima desplegado 60cm. Altura en formato banco 40cm. 32cm largo x 32cm ancho.",
@@ -183,7 +183,7 @@
     {
       "id": 11,
       "title": "Sommier + colchón",
-      "picture": "./src/assets/sommier.jpg",
+      "picture": "/assets/sommier.JPG",
       "name": "Sommier + colchón de una plaza y media (medida más amplia que el estándar 1m de ancho)",
       "description": "100cm ancho x 190cm largo x 100cm alto (total patas + sommier + colchón)",
       "price": 100,
@@ -200,7 +200,7 @@
     {
       "id": 12,
       "title": "Aspiradora robot",
-      "picture": "./src/assets/cat.jpg",
+      "picture": "/assets/cat.jpg",
       "name": "Aspiradora Robot Smart-tek Ava Pro",
       "description": "Aspiradora Robot Smart-tek Ava Pro con Mopper Color Negro. Tiene función mopeo. Capacidad del depósito de polvo de 450 mL y de líquido de 300 mL. 30W de Potencia. La batería dura 90 m y se recarga en 4 h. Viene con filtros HEPA. Tiene sensor de obstáculos y anticaída. Aspira a una velocidad de 18 metros cuadrados por minuto en seco.",
       "measurements": "32cm de diámetro y 8cm de alto aproximadamente.",
@@ -218,7 +218,7 @@
     {
       "id": 13,
       "title": "Pava eléctrica",
-      "picture": "./src/assets/pavaElectrica.jpg",
+      "picture": "/assets/pavaElectrica.JPG",
       "name": "Pava eléctrica Philips con punto mate",
       "description": "Pava eléctrica marca Philips con regulación de temperatura. Color negro. Capacidad 1,2L. Perfecto estado.",
       "measurements": "",
@@ -236,7 +236,7 @@
     {
       "id": 14,
       "title": "Cafetera automática Oster",
-      "picture": "./src/assets/cafetera.jpg",
+      "picture": "/assets/cafetera.JPG",
       "name": "Cafetera De Filtro Oster Dc10ss",
       "description": "Cafetera eléctrica automática Oster DC10SS con filtro permanente y capacidad de 1,85L (aprox 8 tazas). Potencia 800W. Tiene temporizador. Perfecto estado.",
       "measurements": "",
@@ -254,7 +254,7 @@
     {
       "id": 15,
       "title": "Minipimer",
-      "picture": "./src/assets/cat.jpg",
+      "picture": "/assets/cat.jpg",
       "name": "Minipimer",
       "description": "Información pendiente",
       "measurements": "Información pendiente",
@@ -272,7 +272,7 @@
     {
       "id": 16,
       "title": "Mueble-rack de madera",
-      "picture": "./src/assets/mueblePlantas.jpg",
+      "picture": "/assets/mueblePlantas.JPG",
       "name": "Mueble madera - rack con estantes para plantas (u otros usos) apto exterior",
       "description": "",
       "measurements": "25cm profundidad x 98cm largo total x 75 cm alto total (ver medidas detalladas en foto)",
@@ -290,7 +290,7 @@
     {
       "id": 17,
       "title": "Banquetas altas",
-      "picture": "./src/assets/banquetas.jpg",
+      "picture": "/assets/banquetas.JPG",
       "name": "2 Banquetas altas Banquetas Gervasoni de Simil Yute.",
       "description": "2 Banquetas altas Banquetas Gervasoni  de Simil Yute, Tejido Marrón, Estructura Negra de hierro. Aptas exterior e interior. Se venden a USD50 las dos o USD30 cada una.",
       "measurements": "100cm Alto x 54cm Ancho x 40cm Profundidad. 70cm Alto del piso al asiento.",
@@ -308,7 +308,7 @@
     {
       "id": 18,
       "title": "Barra balcón",
-      "picture": "./src/assets/barraBalcon.jpg",
+      "picture": "/assets/barraBalcon.JPG",
       "name": "Barra rebatible para balcón de madera paraíso y hierro",
       "description": "Marca Minimal Crea. Hecha en madera paraíso maciza y hierro. Soporta hasta 45kg.",
       "measurements": "110cm largo x 32cm profundidad x2cm espesor de la madera",
@@ -326,7 +326,7 @@
     {
       "id": 19,
       "title": "Estantes flotantes",
-      "picture": "./src/assets/cat.jpg",
+      "picture": "/assets/cat.jpg",
       "name": "3 estantes recubiertos en madera paraíso",
       "description": "3 estantes flotantes de melanina recubiertos en madera paraíso. Incluye ménsulas para instalarlos y 6 apoyalibros.",
       "measurements": "Medidas pendientes",
@@ -344,7 +344,7 @@
     {
       "id": 20,
       "title": "Ventilador",
-      "picture": "./src/assets/cat.jpg",
+      "picture": "/assets/cat.jpg",
       "name": "Ventilador de techo Exahome 605 blanco",
       "description": "Ventilador de techo Exahome 605 blanco con 4 palas de metal, 120 cm de diámetro 220 V.",
       "measurements": "",
@@ -362,7 +362,7 @@
     {
       "id": 21,
       "title": "Filtro de agua",
-      "picture": "./src/assets/cat.jpg",
+      "picture": "/assets/cat.jpg",
       "name": "Filtro Purificador de agua sobremesada marca Aquatal",
       "description": "Filtro De Agua Purificador Aquatal Sobre Mesada. Incluye accesorios para conexión a distintas canillas FV y filtro interior cambiado hace 2 meses.",
       "measurements": "",
@@ -380,7 +380,7 @@
     {
       "id": 22,
       "title": "Estufa vitroconvectora",
-      "picture": "./src/assets/cat.jpg",
+      "picture": "/assets/cat.jpg",
       "name": "Estufa Vitroconvector Peabody Pe-vc20 2000W",
       "description": "Vitroconvector Peabody Pe-vc20 Panel Calefactor 2000w color blanco.",
       "measurements": "",
@@ -398,7 +398,7 @@
     {
       "id": 23,
       "title": "Televisión",
-      "picture": "./src/assets/tele.jpg",
+      "picture": "/assets/tele.jpg",
       "name": "TV Led/Monitor Samsung LT24C550",
       "description": "24 pulgadas. Anda perfecto, pequeño detalle en el marco de la TV como se ve en la foto. 1080p conexión HDMI. Viene con soporte para pared multidireccional incluido (sin soporte para pararla en mesa). Se vende a USD50 solo la tele o USD75 con el AppleTV",
       "measurements": "",
@@ -416,7 +416,7 @@
     {
       "id": 24,
       "title": "Apple TV",
-      "picture": "./src/assets/appleTV.jpg",
+      "picture": "/assets/appleTV.JPG",
       "name": "Apple TV modelo A1469",
       "description": "Anda perfecto, viene con control remoto. Viene sin caja. Se vende a USD45 solo el AppleTV o USD75 con la tele.",
       "measurements": "",
@@ -434,7 +434,7 @@
     {
       "id": 25,
       "title": "Secador de pelo",
-      "picture": "./src/assets/secadorDePelo.jpg",
+      "picture": "/assets/secadorDePelo.JPG",
       "name": "Secador de pelo Gadnic S2400 PRO",
       "description": "Secador de pelo Gadnic S2400 PRO. Potencia 2050W. Entrada 220V-; 50/60Hz. Viene con accesorios: el difusor pequeño con el que viene + difusor para rulos universal marca GAMA que compré aparte.",
       "measurements": "",
@@ -452,7 +452,7 @@
     {
       "id": 26,
       "title": "Apliques de luz",
-      "picture": "./src/assets/cat.jpg",
+      "picture": "/assets/cat.jpg",
       "name": "información pendiente",
       "description": "",
       "measurements": "",
@@ -470,7 +470,7 @@
     {
       "id": 27,
       "title": "Bicicleta Olmo Camino Rod 28",
-      "picture": "./src/assets/cat.jpg",
+      "picture": "/assets/cat.jpg",
       "name": "Bicicleta Olmo Camino Rodado 28",
       "description": "Color blanco, cuadro S/M, rodado 28. 7 Cambios Shimano, todo de aluminio, excepto el manubrio que lo cambié por uno más grande para quedar en una posición sentada más derecha. Perfecto estado.",
       "measurements": "",
@@ -488,7 +488,7 @@
     {
       "id": 28,
       "title": "Ukelele Soprano Marca Staggs",
-      "picture": "./src/assets/ukelele.jpg",
+      "picture": "/assets/ukelele.JPG",
       "name": "Ukelele Soprano Marca Staggs",
       "description": "Ukelele Soprano Marca Staggs, buen estado, poco uso. Viene con funda.",
       "measurements": "",
@@ -506,7 +506,7 @@
     {
       "id": 29,
       "title": "Mesa de Luz",
-      "picture": "./src/assets/mesaDeLuz.jpg",
+      "picture": "/assets/mesaDeLuz.JPG",
       "name": "Mesa de Luz Tipo Antigua / Vintage / Rústica",
       "description": "Mesa de luz de madera estilo vintage-antigua. Tiene un cajón y un compartimento con puerta. Es una sola.",
       "measurements": "40cm ancho x 35cm largo x 60cm alto",
@@ -524,7 +524,7 @@
     {
       "id": 30,
       "title": "Velador estilo nórdico color verde",
-      "picture": "./src/assets/velador.jpg",
+      "picture": "/assets/velador.JPG",
       "name": "Lámpara Velador Estilo Nórdico",
       "description": "Velador-lámpara de escritorio 'Paulo' estilo nórdico en color verde vintage.",
       "measurements": "49cm alto. Base 16cm diámetro. Lámpara 14cm diámetro x 16,5cm largo",
@@ -542,7 +542,7 @@
     {
       "id": 31,
       "title": "Kit Yoga",
-      "picture": "./src/assets/kitYoga.jpg",
+      "picture": "/assets/KitYoga.JPG",
       "name": "Kit de Yoga",
       "description": "Mat de yoga de PVC de 6mm de espesor con correa + 2 ladrillos de goma eva + cinto. Todo prácticamente sin uso, perfecto estado.",
       "measurements": "Mat 6mm espesor, 173cm largo x 61cm ancho. Ladrillos 23cm largo x 15cm ancho x 7,5cm espesor. Cinturón 3,8cm grosor x 183cm largo",
@@ -560,7 +560,7 @@
     {
       "id": 32,
       "title": "Silla Gamer Ergonómica",
-      "picture": "./src/assets/sillaGamer.jpg",
+      "picture": "/assets/sillaGamer.JPG",
       "name": "Silla Gamer Ergonómica",
       "description": "Silla marca 'Koa Racing' Inclinable casi 180 grados y con apoya pies extensible y altura regulable. Ruedas totalmente funcionales y 2 almohadones removibles (cervical -cuello- y lumbar -cintura-). Tapizado de eco cuero. 2 años y medio de uso, le vendría bien un retapizado del asiento por razones estéticas (como se ve en la foto), el resto perfectamente funcional.",
       "measurements": "Altura total regulable de 130cm a 140cm de alto. Altura del respaldo 85cm. Ancho total 71cm. Ancho del respaldo 56cm",
