@@ -15,7 +15,7 @@
       "referenceInformationTwo": "",
       "category": "electrodomesticos",
       "categoryName": "Electrodomésticos",
-      "status": "Disponible",
+      "status": "Reservado",
       "stock": 1
     },
     {
@@ -105,7 +105,7 @@
       "referenceInformationTwo": "",
       "category": "otros",
       "categoryName": "Otros",
-      "status": "Disponible",
+      "status": "Reservado",
       "stock": 1
     },
     {
@@ -159,7 +159,7 @@
       "referenceInformationTwo": "",
       "category": "mueblesDeMadera",
       "categoryName": "Muebles de madera",
-      "status": "Disponible",
+      "status": "Reservado",
       "stock": 1
     },
     {
@@ -177,15 +177,16 @@
       "referenceInformationTwo": "",
       "category": "mueblesDeMadera",
       "categoryName": "Muebles de madera",
-      "status": "Disponible",
+      "status": "Reservado",
       "stock": 1
     },
     {
       "id": 11,
       "title": "Sommier + colchón",
       "picture": "/assets/sommier.JPG",
-      "name": "Sommier + colchón de una plaza y media (medida más amplia que el estándar 1m de ancho)",
-      "description": "100cm ancho x 190cm largo x 100cm alto (total patas + sommier + colchón)",
+      "name": "Sommier + colchón de una plaza y media (medida más amplia que el estándar 110cm de ancho)",
+      "description": "FÉ DE ERRATAS, LA MEDIDA ESTÁ MAL EN LA FOTO. El ancho es 110cm no 100cm. Es una medida personalizada más grande que el estándar",
+      "measurements": "110cm ancho x 190cm largo x 100cm alto (total patas + sommier + colchón)",
       "price": 100,
       "priceNew": "USD300 - USD 400",
       "referenceLink": "https://www.mercadolibre.com.ar/sommier-americana-piero-meditare-1-12-plaza-de-190cmx100cm/p/MLA15156247?product_trigger_id=MLA10027977&pdp_filters=category%3AMLA1574&applied_product_filters=MLA10027977&quantity=1",
@@ -194,7 +195,7 @@
       "referenceInformationTwo": "Modelo similar una plaza y media nuevo en ML Link 2",
       "category": "otrosMuebles",
       "categoryName": "Otros muebles",
-      "status": "Disponible",
+      "status": "Reservado",
       "stock": 1
     },
     {
@@ -248,7 +249,7 @@
       "referenceInformationTwo": "",
       "category": "electrodomesticos",
       "categoryName": "Electrodomésticos",
-      "status": "Disponible",
+      "status": "Reservado",
       "stock": 1
     },
     {
@@ -284,7 +285,7 @@
       "referenceInformationTwo": "",
       "category": "mueblesDeMadera",
       "categoryName": "Muebles de madera",
-      "status": "available",
+      "status": "Reservado",
       "stock": 1
     },
     {
@@ -410,7 +411,7 @@
       "referenceInformationTwo": "",
       "category": "otros",
       "categoryName": "Otros",
-      "status": "Disponible",
+      "status": "Reservado",
       "stock": 1
     },
     {
@@ -500,7 +501,7 @@
       "referenceInformationTwo": "",
       "category": "otros",
       "categoryName": "Otros",
-      "status": "Disponible",
+      "status": "Reservado",
       "stock": 1
     },
     {
@@ -536,7 +537,7 @@
       "referenceInformationTwo": "",
       "category": "otros",
       "categoryName": "Otros",
-      "status": "Disponible",
+      "status": "Reservado",
       "stock": 1
     },
     {
@@ -554,7 +555,7 @@
       "referenceInformationTwo": "",
       "category": "otros",
       "categoryName": "Otros",
-      "status": "Disponible",
+      "status": "Reservado",
       "stock": 1
     },
     {
