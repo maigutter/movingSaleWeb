@@ -575,6 +575,24 @@
       "categoryName": "Otros muebles",
       "status": "Disponible",
       "stock": 1
+    },
+    {
+      "id": 33,
+      "title": "Kit teclado y mouse inalámbrico",
+      "picture": "/assets/cat.jpg",
+      "name": "Kit de teclado y mouse inalámbrico Noga S5600",
+      "description": "Kit de teclado y mouse inalámbrico Noga S5600 Español Latinoamérica de color blanco y verde. Kit compuesto por teclado 5600 y mouse S5600. Mouse con sensor óptico y resolución de 1200 dpi. Productos con rango inalámbrico de 10 m. Interfaz de conexión de los dispositivos usb 2.0.",
+      "measurements": "",
+      "price": 20,
+      "priceNew": "Mismo modelo entre USD30 y USD90 depende donde",
+      "referenceLink": "https://www.mercadolibre.com.ar/kit-de-teclado-y-mouse-inalambrico-noga-s5600-espanol-latinoamerica-de-color-blanco-y-verde/p/MLA16258709?pdp_filters=item_id:MLA1402341547",
+      "referenceInformation": "Link mismo modelo nuevo en ML",
+      "referenceLinkTwo": "https://articulo.mercadolibre.com.ar/MLA-1399743415-kit-de-teclado-y-mouse-inalambrico-noga-s5600-espanol-rosa-_JM?searchVariation=181156307499#searchVariation=181156307499&position=13&search_layout=stack&type=item&tracking_id=94ff4931-dfd1-4eae-8747-06fb6de3b8cc",
+      "referenceInformationTwo": "Mismo modelo nuevo en ML link 2",
+      "category": "otros",
+      "categoryName": "Otros",
+      "status": "Disponible",
+      "stock": 1
     }
   ]
 }

@@ -29,13 +29,13 @@ function CardShopDetail({ mueble }) {
           <Text fontSize="1.5xl" fontWeight="semibold">
             {mueble.categoryName}
           </Text>
-          <Text fontWeight="semibold" as="mark">
-            {mueble.name}
+          <Text fontWeight="semibold">{mueble.name}</Text>
+          <Text as="mark" fontWeight="semibold">
+            Estado: {mueble.status}
           </Text>
           <Text>{mueble.description}</Text>
           <Text>{mueble.measurements}</Text>
-          <Text> Estado: {mueble.status}</Text>
-          <Text>{mueble.priceNew}</Text>
+          <Text>Precio nuevo: {mueble.priceNew}</Text>
           <ButtonGroup spacing="2" justifyContent="center" align="center">
             <Button variant="outline" colorScheme="gray">
               <a href={mueble.referenceLink}>{mueble.referenceInformation}</a>
