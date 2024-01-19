@@ -44,7 +44,7 @@ function CardShop({ mueble }) {
             {mueble.categoryName}
           </Text>
           <Text>{mueble.name}</Text>
-          <Text size="md" fontWeight="550">
+          <Text size="md" fontWeight="550" as="mark">
             {mueble.status}
           </Text>
           <Text color="blue.600" fontSize="2xl" marginTop="23%" marginLeft="3%">

@@ -34,7 +34,7 @@ function CardCategory({ mueble }) {
         <Stack mt="6" spacing="3">
           <Heading size="md">{mueble.title}</Heading>
           <Text>{mueble.name}</Text>
-          <Text size="md" fontWeight="550">
+          <Text size="md" fontWeight="550" as="mark">
             {mueble.status}
           </Text>
           <Text color="blue.600" fontSize="2xl">

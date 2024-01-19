@@ -29,7 +29,9 @@ function CardShopDetail({ mueble }) {
           <Text fontSize="1.5xl" fontWeight="semibold">
             {mueble.categoryName}
           </Text>
-          <Text fontWeight="semibold">{mueble.name}</Text>
+          <Text fontWeight="semibold" as="mark">
+            {mueble.name}
+          </Text>
           <Text>{mueble.description}</Text>
           <Text>{mueble.measurements}</Text>
           <Text> Estado: {mueble.status}</Text>
