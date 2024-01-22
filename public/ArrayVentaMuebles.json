@@ -15,7 +15,7 @@
       "referenceInformationTwo": "",
       "category": "electrodomesticos",
       "categoryName": "Electrodomésticos",
-      "status": "Reservado",
+      "status": "Vendido",
       "stock": 1
     },
     {
@@ -44,6 +44,7 @@
       "description": "Cajonera de 12 cajones (9 cajones de 55cm de ancho x 20cm alto + 3 cajones de 55cm ancho x 35cm alto). Perfecto estado, hecho a medida a fines de 2021 en madera paraíso maciza. La mesada mide lo mismo que el ancho total del mueble pero está corrida. El mueble no está empotrado sino que está hecho para encajar a medida en el espacio en el que está. En caso de querer la mesada como tapa de mueble y no como extensión de barra, puede sacarse y recolocarse para que encaje con los cajones, miden exactamente lo mismo.",
       "measurements": "115cm alto x 185cm largo x 45cm profundidad",
       "price": 350,
+      "newPrice": 275,
       "priceNew": "Hecho a medida con carpintero, no tengo precio de referencia",
       "referenceLink": "",
       "referenceInformation": "",
@@ -62,6 +63,7 @@
       "description": "Escritorio de madera paraíso maciza hecho a medida con ruedas y varios detalles: 4 cajones del lado izquierdo, 3 estantes del lado derecho (el estante del medio es removible para que entre una CPU en caso de necesitarse), bandeja deslizable para teclado y mouse y compartimento escondecables doble.",
       "measurements": "147cm largo x 55 profundidad x 87cm alto",
       "price": 270,
+      "newPrice": 225,
       "priceNew": "Hecho a medida con carpintero, no tengo precio de referencia",
       "referenceLink": "",
       "referenceInformation": "",
@@ -105,7 +107,7 @@
       "referenceInformationTwo": "",
       "category": "otros",
       "categoryName": "Otros",
-      "status": "Reservado",
+      "status": "Vendido",
       "stock": 1
     },
     {
@@ -159,7 +161,7 @@
       "referenceInformationTwo": "",
       "category": "mueblesDeMadera",
       "categoryName": "Muebles de madera",
-      "status": "Reservado",
+      "status": "Vendido",
       "stock": 1
     },
     {
@@ -177,7 +179,7 @@
       "referenceInformationTwo": "",
       "category": "mueblesDeMadera",
       "categoryName": "Muebles de madera",
-      "status": "Reservado",
+      "status": "Vendido",
       "stock": 1
     },
     {
@@ -231,7 +233,7 @@
       "referenceInformationTwo": "",
       "category": "electrodomesticos",
       "categoryName": "Electrodomésticos",
-      "status": "Disponible",
+      "status": "Vendido",
       "stock": 1
     },
     {
@@ -249,7 +251,7 @@
       "referenceInformationTwo": "",
       "category": "electrodomesticos",
       "categoryName": "Electrodomésticos",
-      "status": "Reservado",
+      "status": "Vendido",
       "stock": 1
     },
     {
@@ -285,7 +287,7 @@
       "referenceInformationTwo": "",
       "category": "mueblesDeMadera",
       "categoryName": "Muebles de madera",
-      "status": "Reservado",
+      "status": "Vendido",
       "stock": 1
     },
     {
@@ -303,7 +305,7 @@
       "referenceInformationTwo": "Mismo modelo nuevo en ML",
       "category": "otrosMuebles",
       "categoryName": "Otros muebles",
-      "status": "Disponible",
+      "status": "Reservado",
       "stock": 1
     },
     {
@@ -321,7 +323,7 @@
       "referenceInformationTwo": "Barra en Eucalipto en Minimal Crea",
       "category": "mueblesDeMadera",
       "categoryName": "Muebles de madera",
-      "status": "Disponible",
+      "status": "Reservado",
       "stock": 1
     },
     {
@@ -393,7 +395,7 @@
       "referenceInformationTwo": "Mismo modelo nuevo en ML link 2",
       "category": "otros",
       "categoryName": "Otros",
-      "status": "Disponible",
+      "status": "Vendido",
       "stock": 1
     },
     {
@@ -483,7 +485,7 @@
       "referenceInformationTwo": "",
       "category": "otros",
       "categoryName": "Otros",
-      "status": "Disponible",
+      "status": "Vendido"G4n3sh41423,
       "stock": 1
     },
     {
@@ -508,7 +510,7 @@
       "id": 29,
       "title": "Mesa de Luz",
       "picture": "/assets/mesaDeLuz.JPG",
-      "name": "Mesa de Luz Tipo Antigua / Vintage / Rústica",
+      "name": "Una Mesa de Luz Tipo Antigua / Vintage / Rústica",
       "description": "Mesa de luz de madera estilo vintage-antigua. Tiene un cajón y un compartimento con puerta. Es una sola.",
       "measurements": "40cm ancho x 35cm largo x 60cm alto",
       "price": 35,
@@ -537,7 +539,7 @@
       "referenceInformationTwo": "",
       "category": "otros",
       "categoryName": "Otros",
-      "status": "Reservado",
+      "status": "Vendido",
       "stock": 1
     },
     {
