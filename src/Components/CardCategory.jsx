@@ -37,9 +37,24 @@ function CardCategory({ mueble }) {
           <Text size="md" fontWeight="550" as="mark">
             {mueble.status}
           </Text>
-          <Text color="blue.600" fontSize="2xl">
-            U$D{mueble.price}
-          </Text>
+          {mueble.newPrice ? (
+            <Stack direction="row" align="center">
+              <Text
+                color="gray.500"
+                textDecoration="line-through"
+                fontSize="lg"
+              >
+                U$D{mueble.price}
+              </Text>
+              <Text color="green.500" fontSize="lg" fontWeight="600">
+                U$D{mueble.newPrice}
+              </Text>
+            </Stack>
+          ) : (
+            <Text color="blue.600" fontSize="2xl">
+              U$D{mueble.price}
+            </Text>
+          )}
         </Stack>
       </CardBody>
       <Divider />

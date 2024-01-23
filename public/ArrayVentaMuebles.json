@@ -33,7 +33,7 @@
       "referenceInformationTwo": "Link referencia 2 - nuevo en MercadoLibre",
       "category": "electrodomesticos",
       "categoryName": "Electrodomésticos",
-      "status": "Disponible",
+      "status": "Reservado",
       "stock": 1
     },
     {
@@ -43,6 +43,7 @@
       "name": "Mueble cajonera de madera paraíso maciza.",
       "description": "Cajonera de 12 cajones (9 cajones de 55cm de ancho x 20cm alto + 3 cajones de 55cm ancho x 35cm alto). Perfecto estado, hecho a medida a fines de 2021 en madera paraíso maciza. La mesada mide lo mismo que el ancho total del mueble pero está corrida. El mueble no está empotrado sino que está hecho para encajar a medida en el espacio en el que está. En caso de querer la mesada como tapa de mueble y no como extensión de barra, puede sacarse y recolocarse para que encaje con los cajones, miden exactamente lo mismo.",
       "measurements": "115cm alto x 185cm largo x 45cm profundidad",
+      "newPriceDescription": "Nuevo precio USD275 o escucho ofertas.",
       "price": 350,
       "newPrice": 275,
       "priceNew": "Hecho a medida con carpintero, no tengo precio de referencia",
@@ -62,6 +63,7 @@
       "name": "Escritorio de madera paraíso macisa con ruedas.",
       "description": "Escritorio de madera paraíso maciza hecho a medida con ruedas y varios detalles: 4 cajones del lado izquierdo, 3 estantes del lado derecho (el estante del medio es removible para que entre una CPU en caso de necesitarse), bandeja deslizable para teclado y mouse y compartimento escondecables doble.",
       "measurements": "147cm largo x 55 profundidad x 87cm alto",
+      "newPriceDescription": "Nuevo precio USD225 o escucho ofertas.",
       "price": 270,
       "newPrice": 225,
       "priceNew": "Hecho a medida con carpintero, no tengo precio de referencia",
@@ -81,7 +83,9 @@
       "name": "Espejo de Diseño - curvo / irregular",
       "description": "Espejo de diseño curvo irregular",
       "measurements": "150 alto x 45 en el punto más ancho",
+      "newPriceDescription": "Nuevo precio USD50 o escucho ofertas.",
       "price": 55,
+      "newPrice": 50,
       "priceNew": "Aprox USD130",
       "referenceLink": "https://kimkaos.com.ar/productos/curvoso-xl/",
       "referenceInformation": "Link espejo similar nuevo en la misma página donde lo compré",
@@ -125,7 +129,7 @@
       "referenceInformationTwo": "",
       "category": "mueblesDeMadera",
       "categoryName": "Muebles de madera",
-      "status": "Disponible",
+      "status": "Reservado",
       "stock": 1
     },
     {
@@ -135,7 +139,9 @@
       "name": "Perchero de pie de madera tipo recibidor estilo nórdico-escandinavo",
       "description": "Perchero de madera tipo escalera para recibidor",
       "measurements": "180cm alto x 40cm ancho",
+      "newPriceDescription": "Nuevo precio USD12 o escucho ofertas.",
       "price": 15,
+      "newPrice": 12,
       "priceNew": "USD30",
       "referenceLink": "https://articulo.mercadolibre.com.ar/MLA-790448666-perchero-escalera-toallero-moderno-decorativa-madera-paraiso-_JM#position=4&search_layout=grid&type=item&tracking_id=fec8b2c4-d211-42f6-be87-c84fe164eca6",
       "referenceInformation": "Link similar nuevo en ML",
@@ -305,7 +311,7 @@
       "referenceInformationTwo": "Mismo modelo nuevo en ML",
       "category": "otrosMuebles",
       "categoryName": "Otros muebles",
-      "status": "Reservado",
+      "status": "Vendido",
       "stock": 1
     },
     {
@@ -323,7 +329,7 @@
       "referenceInformationTwo": "Barra en Eucalipto en Minimal Crea",
       "category": "mueblesDeMadera",
       "categoryName": "Muebles de madera",
-      "status": "Reservado",
+      "status": "Vendido",
       "stock": 1
     },
     {
@@ -353,10 +359,10 @@
       "measurements": "",
       "price": 40,
       "priceNew": "Aprox USD125",
-      "referenceLink": "Ventilador de techo Exahome 605 blanco con 4 palas de metal, 120 cm de diámetro 220 V | Envío gratis (mercadolibre.com.ar)",
-      "referenceInformation": "",
-      "referenceLinkTwo": "",
-      "referenceInformationTwo": "",
+      "referenceLink": "https://www.mercadolibre.com.ar/ventilador-de-techo-exahome-605-blanco-con-4-palas-de-metal-120cm-de-diametro-220v/p/MLA15711631?pdp_filters=category:MLA385177#searchVariation=MLA15711631&position=2&search_layout=stack&type=product&tracking_id=a117757f-2041-44ce-9310-36052c930802",
+      "referenceInformation": "Link mismo modelo nuevo en ML",
+      "referenceLinkTwo": "https://articulo.mercadolibre.com.ar/MLA-617988756-ventilador-de-techo-con-tulipa-nacional-5-anos-garantia-605-_JM?searchVariation=32315698446#searchVariation=32315698446&position=14&search_layout=stack&type=item&tracking_id=a117757f-2041-44ce-9310-36052c930802",
+      "referenceInformationTwo": "Mismo modelo nuevo en ML link 2",
       "category": "otros",
       "categoryName": "Otros",
       "status": "Disponible",
@@ -557,7 +563,7 @@
       "referenceInformationTwo": "",
       "category": "otros",
       "categoryName": "Otros",
-      "status": "Reservado",
+      "status": "Vendido",
       "stock": 1
     },
     {

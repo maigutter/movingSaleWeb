@@ -40,11 +40,25 @@ function Category() {
     return <div>No hay productos disponibles con la categoría: {category}</div>;
 
   const categoryLabel = categoryItem.label;
+
+  const sortMueblesByStatus = (a, b) => {
+    const statusOrder = {
+      Disponible: 1,
+      Reservado: 2,
+      Vendido: 3,
+    };
+
+    return statusOrder[a.status] - statusOrder[b.status];
+  };
+
+  // Sort filteredMuebles array by status
+  const sortedMuebles = [...filteredMuebles].sort(sortMueblesByStatus);
+
   return (
     <Flex flexDir={"column"} gap="3">
       <Heading>{categoryLabel}</Heading>
       <Wrap spacing={"30px"}>
-        {filteredMuebles.map((mueble) => (
+        {sortedMuebles.map((mueble) => (
           <WrapItem key={mueble.id}>
             <CardCategory mueble={mueble} handleClick={addItem} />
           </WrapItem>

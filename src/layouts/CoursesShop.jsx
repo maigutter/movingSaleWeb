@@ -13,11 +13,23 @@ function CoursesShop() {
     return <Spinner color="purple.600" />;
   }
 
+  const sortMueblesByStatus = (a, b) => {
+    const statusOrder = {
+      Disponible: 1,
+      Reservado: 2,
+      Vendido: 3,
+    };
+
+    return statusOrder[a.status] - statusOrder[b.status];
+  };
+
+  const sortedMuebles = [...muebles].sort(sortMueblesByStatus);
+
   return (
     <Flex flexDir={"column"}>
       <PageTitle title="Acá podés ver todo lo que tengo para vender :)" />
       <Wrap spacing="30px" justify="center" align="center">
-        {muebles.map((mueble) => (
+        {sortedMuebles.map((mueble) => (
           <WrapItem
             key={mueble.id}
             width={{ base: "100%", sm: "50vw", md: "33.33vw", lg: "30vw" }}

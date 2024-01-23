@@ -47,15 +47,39 @@ function CardShopDetail({ mueble }) {
             </Button>
           </ButtonGroup>
           <div className="center">
-            <Text
-              color="blue.600"
-              fontSize="2xl"
-              fontWeight="semibold"
-              justifyContent="center"
-              align="center"
-            >
-              U$D {mueble.price}
-            </Text>
+            {mueble.newPrice ? (
+              <Stack direction="row" align="center">
+                <Text
+                  color="gray.500"
+                  textDecoration="line-through"
+                  fontSize="2xl"
+                  fontWeight="semibold"
+                  justifyContent="center"
+                  align="center"
+                >
+                  U$D{mueble.price}
+                </Text>
+                <Text
+                  color="green.500"
+                  fontSize="2xl"
+                  fontWeight="semibold"
+                  justifyContent="center"
+                  align="center"
+                >
+                  U$D{mueble.newPrice}
+                </Text>
+              </Stack>
+            ) : (
+              <Text
+                color="blue.600"
+                fontSize="2xl"
+                fontWeight="semibold"
+                justifyContent="center"
+                align="center"
+              >
+                U$D{mueble.price}
+              </Text>
+            )}
           </div>
         </Stack>
       </CardBody>
