@@ -11,32 +11,69 @@ import {
   CardBody,
   CardFooter,
   useToast,
+  Box,
 } from "@chakra-ui/react";
 import { useContext } from "react";
 import CartContext from "../context/cart.context";
 import { CloseIcon } from "@chakra-ui/icons";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { getStatusColor } from "../helpers/statusColorUtils";
+import { getContrastColor } from "../helpers/contrastColorUtils";
 
 function CardCategory({ mueble }) {
   const toast = useToast();
   const { cart, addItem, removeItem, removeItemUnit } = useContext(CartContext);
   const cartItem = cart.muebles.find((item) => item.mueble.id === mueble.id);
+  const statusColor = getStatusColor();
+  const textColor = getContrastColor(statusColor);
 
   return (
     <Card maxW="sm" justifyContent="center" align="center">
       <CardBody justifyContent="center" align="center">
-        <Image
-          height="250"
-          src={`/./${mueble.picture}`}
-          borderRadius="lg"
-          justifyContent="center"
-          align="center"
-        />
+        {Array.isArray(mueble.picture) && mueble.picture.length > 1 ? (
+          <Slider
+            dots={true} // Show dots for each slide
+            arrows={true} // Show next/prev arrows
+            autoplay={false} // Enable automatic sliding
+          >
+            {mueble.picture.map((picture, index) => (
+              <div key={index}>
+                <Image
+                  height="250"
+                  src={`/./${picture}`}
+                  borderRadius="lg"
+                  justifyContent="center"
+                  align="center"
+                />
+              </div>
+            ))}
+          </Slider>
+        ) : (
+          <Image
+            height="250"
+            src={`/./${mueble.picture}`}
+            borderRadius="lg"
+            justifyContent="center"
+            align="center"
+          />
+        )}
+
         <Stack mt="6" spacing="3">
           <Heading size="md">{mueble.title}</Heading>
           <Text>{mueble.name}</Text>
-          <Text size="md" fontWeight="550" as="mark">
+          <Box
+            as="mark"
+            bg={getStatusColor(mueble.status)}
+            display="inline-block" // Make the box inline-block to center the text
+            p={1} // Add padding for better visibility
+            borderRadius="md" // Add border-radius for rounded corners
+            fontWeight="550"
+            color={textColor}
+          >
             {mueble.status}
-          </Text>
+          </Box>
           {mueble.newPrice ? (
             <Stack direction="row" align="center">
               <Text

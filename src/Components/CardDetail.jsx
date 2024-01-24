@@ -9,30 +9,72 @@ import {
   Button,
   CardBody,
   CardFooter,
+  Box,
 } from "@chakra-ui/react";
 import { useToast } from "@chakra-ui/react";
 import { useContext } from "react";
 import CartContext from "../context/cart.context";
 import { Link } from "react-router-dom";
 import { CloseIcon } from "@chakra-ui/icons";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { getStatusColor } from "../helpers/statusColorUtils";
+import { getContrastColor } from "../helpers/contrastColorUtils";
 
 function CardShopDetail({ mueble }) {
   const toast = useToast();
   const { cart, addItem, removeItem, removeItemUnit } = useContext(CartContext);
   const cartItem = cart.muebles.find((item) => item.mueble.id === mueble.id);
+  const statusColor = getStatusColor();
+  const textColor = getContrastColor(statusColor);
   return (
     <Card>
       <CardBody justifyContent="center" align="center">
-        <Image height="500" src={`/./${mueble.picture}`} borderRadius="lg" />
+        {Array.isArray(mueble.picture) && mueble.picture.length > 1 ? (
+          <Slider
+            dots={true} // Show dots for each slide
+            arrows={true} // Show next/prev arrows
+            autoplay={false} // Enable automatic sliding
+          >
+            {mueble.picture.map((picture, index) => (
+              <div key={index}>
+                <Image
+                  height="250"
+                  src={`/./${picture}`}
+                  borderRadius="lg"
+                  justifyContent="center"
+                  align="center"
+                />
+              </div>
+            ))}
+          </Slider>
+        ) : (
+          <Image
+            height="250"
+            src={`/./${mueble.picture}`}
+            borderRadius="lg"
+            justifyContent="center"
+            align="center"
+          />
+        )}
         <Stack mt="6" spacing="3">
           <Heading size="md">{mueble.title}</Heading>
           <Text fontSize="1.5xl" fontWeight="semibold">
             {mueble.categoryName}
           </Text>
           <Text fontWeight="semibold">{mueble.name}</Text>
-          <Text as="mark" fontWeight="semibold">
-            Estado: {mueble.status}
-          </Text>
+          <Box
+            as="mark"
+            bg={getStatusColor(mueble.status)}
+            display="inline-block" // Make the box inline-block to center the text
+            p={1} // Add padding for better visibility
+            borderRadius="md" // Add border-radius for rounded corners
+            fontWeight="550"
+            color={textColor}
+          >
+            {mueble.status}
+          </Box>
           <Text>{mueble.description}</Text>
           <Text>{mueble.measurements}</Text>
           <Text>Precio nuevo: {mueble.priceNew}</Text>
