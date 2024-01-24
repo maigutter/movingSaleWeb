@@ -39,7 +39,7 @@
     {
       "id": 3,
       "title": "Mueble cajonera",
-      "picture": "/assets/cajonera.JPG",
+      "picture": "/assets/cajonera2.JPG",
       "name": "Mueble cajonera de madera paraíso maciza.",
       "description": "Cajonera de 12 cajones (9 cajones de 55cm de ancho x 20cm alto + 3 cajones de 55cm ancho x 35cm alto). Perfecto estado, hecho a medida a fines de 2021 en madera paraíso maciza. La mesada mide lo mismo que el ancho total del mueble pero está corrida. El mueble no está empotrado sino que está hecho para encajar a medida en el espacio en el que está. En caso de querer la mesada como tapa de mueble y no como extensión de barra, puede sacarse y recolocarse para que encaje con los cajones, miden exactamente lo mismo.",
       "measurements": "115cm alto x 185cm largo x 45cm profundidad",
@@ -59,7 +59,7 @@
     {
       "id": 4,
       "title": "Escritorio",
-      "picture": "/assets/escritorio.JPG",
+      "picture": "/assets/escritorio2.JPG",
       "name": "Escritorio de madera paraíso macisa con ruedas.",
       "description": "Escritorio de madera paraíso maciza hecho a medida con ruedas y varios detalles: 4 cajones del lado izquierdo, 3 estantes del lado derecho (el estante del medio es removible para que entre una CPU en caso de necesitarse), bandeja deslizable para teclado y mouse y compartimento escondecables doble.",
       "measurements": "147cm largo x 55 profundidad x 87cm alto",
@@ -79,7 +79,7 @@
     {
       "id": 5,
       "title": "Espejo",
-      "picture": "/assets/espejo.JPG",
+      "picture": "/assets/espejo2.JPG",
       "name": "Espejo de Diseño - curvo / irregular",
       "description": "Espejo de diseño curvo irregular",
       "measurements": "150 alto x 45 en el punto más ancho",
@@ -209,7 +209,7 @@
     {
       "id": 12,
       "title": "Aspiradora robot",
-      "picture": "/assets/aspiradora.JPG",
+      "picture": "/assets/aspiradora2.JPG",
       "name": "Aspiradora Robot Smart-tek Ava Pro",
       "description": "Aspiradora Robot Smart-tek Ava Pro con Mopper Color Negro. Tiene función mopeo. Capacidad del depósito de polvo de 450 mL y de líquido de 300 mL. 30W de Potencia. La batería dura 90 m y se recarga en 4 h. Viene con filtros HEPA. Tiene sensor de obstáculos y anticaída. Aspira a una velocidad de 18 metros cuadrados por minuto en seco. Se vende con la caja con la que vino y todos los repuestos SIN USO (un filtro HEPA, repuestos para los dos cepillos y repuesto de la alfombrilla para el mopeo).",
       "measurements": "32cm de diámetro y 8cm de alto aproximadamente.",
@@ -335,7 +335,7 @@
     {
       "id": 19,
       "title": "Estantes flotantes",
-      "picture": "/assets/estantes.JPG",
+      "picture": "/assets/estantes2.JPG",
       "name": "3 estantes recubiertos en madera paraíso",
       "description": "3 estantes flotantes de melanina recubiertos en madera paraíso. Incluye ménsulas para instalarlos y 6 apoyalibros.",
       "measurements": "Medidas pendientes",
@@ -353,7 +353,7 @@
     {
       "id": 20,
       "title": "Ventilador",
-      "picture": "/assets/ventilador.JPG",
+      "picture": "/assets/ventilador2.JPG",
       "name": "Ventilador de techo Exahome 605 blanco",
       "description": "Ventilador de techo Exahome 605 blanco con 4 palas de metal, 120 cm de diámetro 220 V. Viene con la caja original en la que vino y con todo para instalarlo.",
       "measurements": "",
@@ -371,7 +371,7 @@
     {
       "id": 21,
       "title": "Filtro de agua",
-      "picture": "/assets/filtroAgua.JPG",
+      "picture": "/assets/filtro2.JPG",
       "name": "Filtro Purificador de agua sobremesada marca Aquatal",
       "description": "Filtro De Agua Purificador Aquatal Sobre Mesada. Incluye accesorios para conexión a distintas canillas FV y filtro interior cambiado hace 2 meses. Viene con la caja original en la que vino, con todos sus accesorios y con un adaptador extra a canilla que compré.",
       "measurements": "",
@@ -389,7 +389,7 @@
     {
       "id": 22,
       "title": "Estufa vitroconvectora",
-      "picture": "/assets/cat.jpg",
+      "picture": "/assets/estufa.JPG",
       "name": "Estufa Vitroconvector Peabody Pe-vc20 2000W",
       "description": "Vitroconvector Peabody Pe-vc20 Panel Calefactor 2000w color blanco.",
       "measurements": "",
@@ -425,7 +425,7 @@
     {
       "id": 24,
       "title": "Apple TV",
-      "picture": "/assets/appleTV.JPG",
+      "picture": "/assets/appleTV2.JPG",
       "name": "Apple TV modelo A1469",
       "description": "Anda perfecto, viene con control remoto. Viene sin caja. Se vende a USD45 solo el AppleTV.",
       "measurements": "",
@@ -517,7 +517,7 @@
     {
       "id": 29,
       "title": "Mesa de Luz",
-      "picture": "/assets/mesaDeLuz.JPG",
+      "picture": "/assets/mesaDeLuz2.JPG",
       "name": "Una Mesa de Luz Tipo Antigua / Vintage / Rústica",
       "description": "Mesa de luz de madera estilo vintage-antigua. Tiene un cajón y un compartimento con puerta. Es una sola.",
       "measurements": "40cm ancho x 35cm largo x 60cm alto",
@@ -609,7 +609,7 @@
     {
       "id": 34,
       "title": "Carrito Auxiliar Organizador Blanco",
-      "picture": "/assets/teclado.JPG",
+      "picture": "/assets/carrito.JPG",
       "name": "Carrito auxiliar organizador de melamina blanca",
       "description": "Carrito auxiliar organizador blanco de melamina. Tiene 3 estantes. Se desarma por completo para su transporte o guardado.",
       "measurements": "",

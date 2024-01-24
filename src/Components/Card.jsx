@@ -16,11 +16,10 @@ import {
 import { useContext } from "react";
 import CartContext from "../context/cart.context";
 import { CloseIcon } from "@chakra-ui/icons";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import { getStatusColor } from "../helpers/statusColorUtils";
 import { getContrastColor } from "../helpers/contrastColorUtils";
+
+// Install Swiper modules
 
 function CardShop({ mueble }) {
   const toast = useToast();
@@ -39,33 +38,13 @@ function CardShop({ mueble }) {
       flexDirection="column"
     >
       <CardBody justifyContent="center" align="center" flex="1">
-        {Array.isArray(mueble.picture) && mueble.picture.length > 1 ? (
-          <Slider
-            dots={true} // Show dots for each slide
-            arrows={true} // Show next/prev arrows
-            autoplay={false} // Enable automatic sliding
-          >
-            {mueble.picture.map((picture, index) => (
-              <div key={index}>
-                <Image
-                  height="250"
-                  src={`/./${picture}`}
-                  borderRadius="lg"
-                  justifyContent="center"
-                  align="center"
-                />
-              </div>
-            ))}
-          </Slider>
-        ) : (
-          <Image
-            height="250"
-            src={mueble.picture}
-            borderRadius="lg"
-            justifyContent="center"
-            align="center"
-          />
-        )}
+        <Image
+          height="250"
+          src={mueble.picture}
+          borderRadius="lg"
+          justifyContent="center"
+          align="center"
+        />
 
         <Stack mt="6" spacing="3">
           <Heading size="md">{mueble.title}</Heading>
