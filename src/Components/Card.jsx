@@ -38,11 +38,11 @@ function CardShop({ mueble }) {
     >
       <CardBody justifyContent="center" align="center" flex="1">
         {Array.isArray(mueble.picture) && mueble.picture.length > 1 ? (
-          <Carousel images={`/./${mueble.picture}`} />
+          <Carousel images={mueble.picture} />
         ) : (
           <Image
             height="250"
-            src={`/./${mueble.picture}`}
+            src={mueble.picture}
             borderRadius="lg"
             justifyContent="center"
             align="center"
