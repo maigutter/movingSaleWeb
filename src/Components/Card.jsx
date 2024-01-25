@@ -18,8 +18,7 @@ import CartContext from "../context/cart.context";
 import { CloseIcon } from "@chakra-ui/icons";
 import { getStatusColor } from "../helpers/statusColorUtils";
 import { getContrastColor } from "../helpers/contrastColorUtils";
-
-// Install Swiper modules
+import Carousel from "./Carousel";
 
 function CardShop({ mueble }) {
   const toast = useToast();
@@ -38,13 +37,17 @@ function CardShop({ mueble }) {
       flexDirection="column"
     >
       <CardBody justifyContent="center" align="center" flex="1">
-        <Image
-          height="250"
-          src={mueble.picture}
-          borderRadius="lg"
-          justifyContent="center"
-          align="center"
-        />
+        {Array.isArray(mueble.picture) && mueble.picture.length > 1 ? (
+          <Carousel images={mueble.picture} />
+        ) : (
+          <Image
+            height="250"
+            src={mueble.picture}
+            borderRadius="lg"
+            justifyContent="center"
+            align="center"
+          />
+        )}
 
         <Stack mt="6" spacing="3">
           <Heading size="md">{mueble.title}</Heading>

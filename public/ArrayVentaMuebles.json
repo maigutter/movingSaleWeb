@@ -39,7 +39,11 @@
     {
       "id": 3,
       "title": "Mueble cajonera",
-      "picture": "/assets/cajonera2.JPG",
+      "picture": [
+        "/assets/cajonera2.JPG",
+        "/assets/cajonera3.JPG",
+        "/assets/cajonera4.JPG"
+      ],
       "name": "Mueble cajonera de madera paraíso maciza.",
       "description": "Cajonera de 12 cajones (9 cajones de 55cm de ancho x 20cm alto + 3 cajones de 55cm ancho x 35cm alto). Perfecto estado, hecho a medida a fines de 2021 en madera paraíso maciza. La mesada mide lo mismo que el ancho total del mueble pero está corrida. El mueble no está empotrado sino que está hecho para encajar a medida en el espacio en el que está. En caso de querer la mesada como tapa de mueble y no como extensión de barra, puede sacarse y recolocarse para que encaje con los cajones, miden exactamente lo mismo.",
       "measurements": "115cm alto x 185cm largo x 45cm profundidad",
@@ -340,9 +344,9 @@
       "description": "3 estantes flotantes de melanina recubiertos en madera paraíso. Incluye ménsulas para instalarlos y 6 apoyalibros.",
       "measurements": "Medidas pendientes",
       "price": 50,
-      "priceNew": "",
-      "referenceLink": "",
-      "referenceInformation": "",
+      "priceNew": "Aprox USD100 (al rededor USD35 cada estante)",
+      "referenceLink": "https://articulo.mercadolibre.com.ar/MLA-922208330-estantes-repisas-paraiso-mensulas-flotantes-100-x-20-18-mm-_JM?searchVariation=85928340383#searchVariation=85928340383&position=23&search_layout=grid&type=item&tracking_id=5960b584-26da-4dc3-beb2-f684c359de91",
+      "referenceInformation": "Link modelo similar nuevo en ML",
       "referenceLinkTwo": "",
       "referenceInformationTwo": "",
       "category": "mueblesDeMadera",
