@@ -14,10 +14,10 @@ import {
 import { useToast } from "@chakra-ui/react";
 import { useContext } from "react";
 import CartContext from "../context/cart.context";
-import { Link } from "react-router-dom";
 import { CloseIcon } from "@chakra-ui/icons";
 import { getStatusColor } from "../helpers/statusColorUtils";
 import { getContrastColor } from "../helpers/contrastColorUtils";
+import Carousel from "./Carousel";
 
 function CardShopDetail({ mueble }) {
   const toast = useToast();
@@ -28,14 +28,17 @@ function CardShopDetail({ mueble }) {
   return (
     <Card>
       <CardBody justifyContent="center" align="center">
-        <Image
-          height="250"
-          src={`/./${mueble.picture}`}
-          borderRadius="lg"
-          justifyContent="center"
-          align="center"
-        />
-
+        {Array.isArray(mueble.picture) && mueble.picture.length > 1 ? (
+          <Carousel images={mueble.picture} size="large" />
+        ) : (
+          <Image
+            height="250"
+            src={`/./${mueble.picture}`}
+            borderRadius="lg"
+            justifyContent="center"
+            align="center"
+          />
+        )}
         <Stack mt="6" spacing="3">
           <Heading size="md">{mueble.title}</Heading>
           <Text fontSize="1.5xl" fontWeight="semibold">

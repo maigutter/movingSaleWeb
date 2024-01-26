@@ -33,7 +33,7 @@
       "referenceInformationTwo": "Link referencia 2 - nuevo en MercadoLibre",
       "category": "electrodomesticos",
       "categoryName": "Electrodomésticos",
-      "status": "Reservado",
+      "status": "Vendido",
       "stock": 1
     },
     {
@@ -47,9 +47,9 @@
       "name": "Mueble cajonera de madera paraíso maciza.",
       "description": "Cajonera de 12 cajones (9 cajones de 55cm de ancho x 20cm alto + 3 cajones de 55cm ancho x 35cm alto). Perfecto estado, hecho a medida a fines de 2021 en madera paraíso maciza. La mesada mide lo mismo que el ancho total del mueble pero está corrida. El mueble no está empotrado sino que está hecho para encajar a medida en el espacio en el que está. En caso de querer la mesada como tapa de mueble y no como extensión de barra, puede sacarse y recolocarse para que encaje con los cajones, miden exactamente lo mismo.",
       "measurements": "115cm alto x 185cm largo x 45cm profundidad",
-      "newPriceDescription": "Nuevo precio USD275 o escucho ofertas.",
+      "newPriceDescription": "Nuevo precio USD235 o escucho ofertas.",
       "price": 350,
-      "newPrice": 275,
+      "newPrice": 235,
       "priceNew": "Hecho a medida con carpintero, no tengo precio de referencia",
       "referenceLink": "",
       "referenceInformation": "",
@@ -63,13 +63,18 @@
     {
       "id": 4,
       "title": "Escritorio",
-      "picture": "/assets/escritorio2.JPG",
+      "picture": [
+        "/assets/escritorio2.JPG",
+        "/assets/escritorio3.JPG",
+        "/assets/escritorio4.JPG",
+        "/assets/escritorio5.JPG"
+      ],
       "name": "Escritorio de madera paraíso macisa con ruedas.",
       "description": "Escritorio de madera paraíso maciza hecho a medida con ruedas y varios detalles: 4 cajones del lado izquierdo, 3 estantes del lado derecho (el estante del medio es removible para que entre una CPU en caso de necesitarse), bandeja deslizable para teclado y mouse y compartimento escondecables doble.",
       "measurements": "147cm largo x 55 profundidad x 87cm alto",
-      "newPriceDescription": "Nuevo precio USD225 o escucho ofertas.",
+      "newPriceDescription": "Nuevo precio USD195 o escucho ofertas.",
       "price": 270,
-      "newPrice": 225,
+      "newPrice": 195,
       "priceNew": "Hecho a medida con carpintero, no tengo precio de referencia",
       "referenceLink": "",
       "referenceInformation": "",
@@ -133,7 +138,7 @@
       "referenceInformationTwo": "",
       "category": "mueblesDeMadera",
       "categoryName": "Muebles de madera",
-      "status": "Reservado",
+      "status": "Vendido",
       "stock": 1
     },
     {
@@ -207,7 +212,7 @@
       "referenceInformationTwo": "Modelo similar una plaza y media nuevo en ML Link 2",
       "category": "otrosMuebles",
       "categoryName": "Otros muebles",
-      "status": "Reservado",
+      "status": "Vendido",
       "stock": 1
     },
     {
@@ -225,7 +230,7 @@
       "referenceInformationTwo": "",
       "category": "electrodomesticos",
       "categoryName": "Electrodomésticos",
-      "status": "Disponible",
+      "status": "Reservado",
       "stock": 1
     },
     {
@@ -339,10 +344,10 @@
     {
       "id": 19,
       "title": "Estantes flotantes",
-      "picture": "/assets/estantes2.JPG",
+      "picture": ["/assets/estantes2.JPG", "/assets/estantes3.JPG"],
       "name": "3 estantes recubiertos en madera paraíso",
       "description": "3 estantes flotantes de melanina recubiertos en madera paraíso. Incluye ménsulas para instalarlos y 6 apoyalibros.",
-      "measurements": "Medidas pendientes",
+      "measurements": "1m largo x 23cm ancho x 2,5cm grosor",
       "price": 50,
       "priceNew": "Aprox USD100 (al rededor USD35 cada estante)",
       "referenceLink": "https://articulo.mercadolibre.com.ar/MLA-922208330-estantes-repisas-paraiso-mensulas-flotantes-100-x-20-18-mm-_JM?searchVariation=85928340383#searchVariation=85928340383&position=23&search_layout=grid&type=item&tracking_id=5960b584-26da-4dc3-beb2-f684c359de91",
@@ -357,7 +362,11 @@
     {
       "id": 20,
       "title": "Ventilador",
-      "picture": "/assets/ventilador2.JPG",
+      "picture": [
+        "/assets/ventilador2.JPG",
+        "/assets/ventilador3.JPG",
+        "/assets/ventilador4.JPG"
+      ],
       "name": "Ventilador de techo Exahome 605 blanco",
       "description": "Ventilador de techo Exahome 605 blanco con 4 palas de metal, 120 cm de diámetro 220 V. Viene con la caja original en la que vino y con todo para instalarlo.",
       "measurements": "",
@@ -369,7 +378,7 @@
       "referenceInformationTwo": "Mismo modelo nuevo en ML link 2",
       "category": "otros",
       "categoryName": "Otros",
-      "status": "Disponible",
+      "status": "Reservado",
       "stock": 1
     },
     {
@@ -525,9 +534,9 @@
       "name": "Una Mesa de Luz Tipo Antigua / Vintage / Rústica",
       "description": "Mesa de luz de madera estilo vintage-antigua. Tiene un cajón y un compartimento con puerta. Es una sola.",
       "measurements": "40cm ancho x 35cm largo x 60cm alto",
-      "newPriceDescription": "Nuevo precio USD28 o escucho ofertas.",
+      "newPriceDescription": "Nuevo precio USD25 o escucho ofertas.",
       "price": 35,
-      "newPrice": 28,
+      "newPrice": 25,
       "priceNew": "Aprox USD115",
       "referenceLink": "https://articulo.mercadolibre.com.ar/MLA-791255855-mesa-de-luz-tipo-antigua-vintage-rustica-35x35x70-cm-_JM?searchVariation=38444219703#searchVariation=38444219703&position=11&search_layout=stack&type=item&tracking_id=2f06be2f-9abe-4f9a-8db0-ea341a4a26dd",
       "referenceInformation": "Link modelo similar nuevo en ML",
@@ -589,7 +598,7 @@
       "referenceInformationTwo": "Modelo similar nuevo en ML link 2",
       "category": "otrosMuebles",
       "categoryName": "Otros muebles",
-      "status": "Disponible",
+      "status": "Reservado",
       "stock": 1
     },
     {

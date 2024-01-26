@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Box, Image, IconButton } from "@chakra-ui/react";
 import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons";
 
-const Carousel = ({ images }) => {
+const Carousel = ({ images, size }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToPrevious = () => {
@@ -24,6 +24,9 @@ const Carousel = ({ images }) => {
       goToNext();
     }
   };
+
+  // Define carousel size based on the 'size' prop
+  const carouselHeight = size === "large" ? "500px" : "250px";
 
   return (
     <Box position="relative" height="250px" width="100%">
@@ -62,7 +65,7 @@ const Carousel = ({ images }) => {
           width="100%"
           height="auto"
           objectFit="contain" // Changed to contain
-          maxH="250px" // Maximum height
+          maxH={carouselHeight} // Maximum height dynamically set
           borderRadius="lg"
         />
       ))}
