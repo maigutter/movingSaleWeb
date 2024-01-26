@@ -17,6 +17,14 @@ const Carousel = ({ images }) => {
     setCurrentIndex(newIndex);
   };
 
+  const handleTouchStart = (e, direction) => {
+    if (direction === "prev") {
+      goToPrevious();
+    } else if (direction === "next") {
+      goToNext();
+    }
+  };
+
   return (
     <Box position="relative" height="250px" width="100%">
       <IconButton
@@ -26,9 +34,11 @@ const Carousel = ({ images }) => {
         top="50%"
         transform="translateY(-50%)"
         onClick={goToPrevious}
+        onTouchStart={(e) => handleTouchStart(e, "prev")}
         aria-label="Previous image"
         variant="ghost"
         color="gray.600"
+        size="md"
       />
       <IconButton
         icon={<ChevronRightIcon w={6} h={6} />}
@@ -37,9 +47,11 @@ const Carousel = ({ images }) => {
         top="50%"
         transform="translateY(-50%)"
         onClick={goToNext}
+        onTouchStart={(e) => handleTouchStart(e, "next")}
         aria-label="Next image"
         variant="ghost"
         color="gray.600"
+        size="md"
       />
       {images.map((image, index) => (
         <Image
